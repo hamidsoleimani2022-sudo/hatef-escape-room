@@ -11,7 +11,7 @@ const vazir = Vazirmatn({
 export const metadata: Metadata = {
   title: "اتاق فرار هاتف",
   description:
-    "از ذهن هاتف، نخستین ابرهوش‌مصنوعی جهان، فرار کن. پنج لایه، پنج کلید، شصت دقیقه.",
+    "از ذهن هاتف، نخستین ابرهوش‌مصنوعی جهان، فرار کن. پنج لایه، پنج کلید، ده دقیقه.",
 };
 
 export const viewport: Viewport = {

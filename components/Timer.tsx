@@ -39,7 +39,7 @@ export default function Timer() {
     return () => clearInterval(id);
   }, [remainingFn, phase, loseGame, soundOn]);
 
-  const danger = remaining <= 600; // زیر ۱۰ دقیقه
+  const danger = remaining <= 120; // زیر ۲ دقیقه
   const critical = remaining <= 60;
 
   return (

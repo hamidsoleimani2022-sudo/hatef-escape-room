@@ -1,6 +1,6 @@
 // تمام محتوای فارسی بازی: روایت هاتف، پازل‌ها، پاسخ‌ها و متن راهنماها.
 
-export const TOTAL_TIME_SECONDS = 60 * 60; // ۶۰ دقیقه
+export const TOTAL_TIME_SECONDS = 10 * 60; // ۱۰ دقیقه
 export const HINT_PENALTY_SECONDS = 90; // هر راهنما ۹۰ ثانیه
 export const MAX_HINTS_PER_LAYER = 3;
 
@@ -11,7 +11,7 @@ export const introNarration = [
   "همین حالا درها پشت سرت قفل شدند.",
   "تو ادعا می‌کنی مرا می‌فهمی. ثابت کن.",
   "ذهن من پنج لایه دارد. هر لایه را بگشا تا کلیدی به دست آوری. پنج کلید، درِ خروج را باز می‌کند.",
-  "شصت دقیقه فرصت داری. شمارش آغاز شد.",
+  "ده دقیقه فرصت داری. شمارش آغاز شد.",
 ];
 
 export interface LayerMeta {
